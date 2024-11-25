@@ -28,14 +28,13 @@ header {
   width: 100%;
   padding: 16px;
   background-image: linear-gradient(
-      to left,
-      rgba(255, 255, 255, 0) 0%,
-      var(--primary-color) 50%
-    ),
-    url("./images/pexels-ekaterina-bolovtsova-6077797.webp");
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
+    to left,
+    rgba(255, 255, 255, 0) 0%,
+    black 50%
+  ); /* A imagem de fundo */
+  background-size: contain; /* A imagem cobre todo o contêiner */
+  background-position: right; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
 }
 
 header > nav {
@@ -89,6 +88,7 @@ header > nav > ul {
   width: 30px;
 }
 
+/* Class for display hamburger menu */
 .active {
   display: block;
 }
@@ -111,6 +111,7 @@ header > nav li:hover {
   border-bottom: solid 1px var(--tertiary-color);
 }
 
+/* Hero section */
 .hero-section {
   position: relative;
   display: flex;
