@@ -1,5 +1,3 @@
-import "./style.css";
-
 const verticalMenu = document.querySelector(".hamburger-menu");
 const menuBtn = document.querySelector("#btn-menu");
 
